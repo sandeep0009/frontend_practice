@@ -1,3 +1,4 @@
+import Feature from "../components/Feature"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Table from "../components/Table"
@@ -9,6 +10,7 @@ const Home = () => {
         <Navbar/>
         <Hero/>
         <Table/>
+        <Feature/>
     </div>
   )
 }
