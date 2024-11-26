@@ -4,7 +4,7 @@ import CustomButton from "./CustomButton"
 const Hero = () => {
   return (
     <div className="max-w-12xl m-auto">
-        <div className="flex justify-between items-center text-white px-8 lg:px-20">
+        <div className="flex justify-between items-center text-white px-8 lg:px-20 bg-cover bg-center bg-no-repeat" style={{backgroundImage:"url(../images/circles.png)"}}>
         <div className="mt-28 ml-16 ">
             <div className="text-7xl text-white font-bold">
             Trusted Multi-Chan <br />

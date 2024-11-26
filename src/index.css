@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
+body {
     background-color: #071624;
+    background-image: url('/public/images/bg.png');
+    @apply bg-repeat bg-center;
 }
