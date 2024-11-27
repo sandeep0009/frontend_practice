@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background-color: #071624;
-    background-image: url('/public/images/bg.png');
-    @apply bg-repeat bg-center;
+    background-color: #01182d;
+    background-image: url('/images/bg.png');
+    @apply bg-no-repeat bg-center;
 }
